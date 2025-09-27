@@ -240,8 +240,8 @@ UI = Material.Load({
 	Icon = "UESP_Icons\\UI.png",
 	ShowInNavigator = true,
 	Style = 3,
-	SizeX = 4000,
-	SizeY = 5000,
+	SizeX = 00.1,
+	SizeY = 00.1,
 	Theme = "Dark"
 })
 local players = game:GetService("Players")
