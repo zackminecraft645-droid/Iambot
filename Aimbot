@@ -227,7 +227,7 @@ for i,v in next, icons do
 end
 
 function page(title)
-	return UI.new({Title = title, ImageId = "UESP_Icons\\"..title..".png", ImageSize = Vector2.new(20, 20)})
+	return UI.new({Title = title, ImageId = "UESP_Icons\\"..title..".png", ImageSize = Vector2.new(0, 0)})
 end
 
 local version = "v1.7.1"
@@ -243,8 +243,6 @@ UI = Material.Load({
 	SizeX = 250,
 	SizeY = 300,
 	Theme = "Dark"
-    PositionX = 100,
-    PositionY = 100,
 })
 local players = game:GetService("Players")
 local camera = workspace.CurrentCamera
